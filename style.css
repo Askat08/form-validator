@@ -24,9 +24,12 @@ body {
 .container {
   background-color: #0b0c10;
   border-radius: 5px;
-  box-shadow: 0 2px 10 px rgba(0, 0, 0, 0.3);
   widows: 400px;
   z-index: 0;
+}
+
+.container:hover {
+  box-shadow: 0 2px 10px rgba(41, 231, 190, 0.932);
 }
 
 h2 {
